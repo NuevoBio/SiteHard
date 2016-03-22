@@ -1,0 +1,28 @@
+@font-face {
+font-family: Open Sans Semibold;
+src: local("Open Sans Semibold"),
+url(fonts/OpenSans-Semibold.ttf);
+
+}
+
+
+.footer__img {
+	position:relative;
+	width:1440px;
+	margin: 0 ;
+	background-size: cover;
+}
+
+.footer__button {
+	position:absolute;
+	padding: 14px;
+	margin-left: 630px;
+	margin-top: -150px;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: semibold;
+	border: 2px solid;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #33cc66
+}

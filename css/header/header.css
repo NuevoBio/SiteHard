@@ -1,0 +1,119 @@
+/*
+@bg_color1: #1d365d(opacity: 0 );
+@bg_color2: #1d365d(opacity: 0,3 );
+*/
+
+@font-face {
+font-family: Gentium Book Basic;
+src: local("Gentium Book Basic"),
+url(fonts/gentium-book-basic.ttf);
+font-family: Gentium Book Basic Italic;
+src: local("Gentium Book Basic Italic"),
+url(fonts/gentium-book-basic-italic.ttf);
+font-family: Open Sans Bold;
+src: local("Open Sans Bold"),
+url(fonts/OpenSans-Bold.ttf);
+}
+
+body {
+      font-family: 'Gentium Book Basic', serif;
+      position:relative;
+      width:1440px;
+      margin: 0 auto;
+      border: 1px solid black;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+	}
+
+  .bg__img {
+    width: 100%;
+    height: 100%;
+  background-size: cover;
+  	}
+
+/* попытался создать градиент используя переменные с помощью CSS - получилось не очень
+    .bg__img-gradient {
+  position: absolute;
+  top: 490px;
+  background-image: linear-gradient(@bg_color1, @bg_color2);
+  width: 1440px;
+  height: 280px;
+
+  }
+
+  */
+
+.bg__text-section {
+  position: absolute;
+	top: 500px;
+	width: 100%;
+/*изначално загнал весь хедера текст в секцию  */
+
+}
+
+/*что пошло не так потом я так и не понял */
+
+.bg__text {
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+}
+
+.bg__title {
+	font-size: 60px;
+	color: #fff;
+
+}
+
+.bg__headline {
+	font-style: italic;
+	font-family: 'Gentium Book Basic Italic', serif;
+	font-size: 30px;
+	margin: -25px 0;
+	color: #d7d7d7;
+}
+
+.bg__line {
+	 size: 1px;
+	 color: #d7d7d7;
+}
+.bg__written-by {
+  	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	margin: -25px 0 0;
+	color: #d7d7d7;
+}
+
+  .bg__author {
+  	font-family: 'Open Sans', Arial, sans-serif;
+  	font-weight: bold;
+  	font-size: 14px;
+  	margin:-25px auto 25px;
+  	color: #fff;
+  }
+
+  .bg__authorPhoto {
+  	margin-top: -10px;
+  	margin-left: 5px;
+  	vertical-align: -5px;
+  	border-radius: 50%;
+  	width: 30px;
+  	height: 30px;
+    }
+
+  .bg__social {
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+  	margin-bottom: 5px;
+  }
+
+  .bg__icone {
+  	margin: -10px 0 0 20px;
+  	width: 15px;
+  	height: 15px;
+  	text-align:right;
+  }

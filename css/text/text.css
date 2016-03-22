@@ -1,0 +1,93 @@
+@font-face {
+font-family: Gentium Book Basic;
+src: local("Gentium Book Basic"),
+url(fonts/gentium-book-basic.ttf);
+font-family: Gentium Book Basic Italic;
+src: local("Gentium Book Basic Italic"),
+url(fonts/gentium-book-basic-italic.ttf);
+font-family: Open Sans Bold;
+src: local("Open Sans Regular"),
+url(fonts/OpenSans-Regular.ttf);
+}
+.text {
+	position: relative;
+	width: 720px;
+	margin: 0 auto;
+}
+
+.text__latin {
+	font-family: 'Gentium Book Basic';
+	font-size: 22px;
+	text-align: left;
+	line-height: 2;
+}
+
+.text__eng {
+	font-family: 'Gentium Book Basic Italic', serif;
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+.text__notes {
+	font-family: 'Gentium Book Basic';
+  font-size: 22px;
+	list-style-position: inside;
+}
+
+.text__numbers {
+	position: absolute;
+	margin-top: 0;
+  margin-left: 300px;
+	font-family: 'Gentium Book Basic Italic', serif;
+  font-size: 22px;
+
+}
+
+.text__n1 {
+  position: relative;
+	top: 31.75%;
+}
+
+.text__n5{
+  position: relative;
+	top: 40.15%;
+}
+.text__n10 {
+  position: relative;
+	top: 51.45%;
+}
+.text__n15 {
+  position: relative;
+	top: 61.7%;
+}
+.text__n20 {
+  position: relative;
+	top: 71.6%;
+}
+.text__n25 {
+  position: relative;
+	top: 77.1%;
+}
+.text__n30 {
+  position: relative;
+	top: 82.5%;
+}
+
+
+.text__backtotop {
+	margin: 0;
+}
+
+.text__backtotopbutton{
+	display: inline-block;
+	padding-top: 20px;
+	line-height: 1.5;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	font-family: 'OpenSans Regular', Arial, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #a3a3a3;
+}
