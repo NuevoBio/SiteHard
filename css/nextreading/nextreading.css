@@ -1,0 +1,63 @@
+@font-face {
+font-family: Gentium Book Basic;
+src: local("Gentium Book Basic"),
+url(fonts/gentium-book-basic.ttf);
+font-family: Gentium Book Basic Italic;
+src: local("Gentium Book Basic Italic"),
+url(fonts/gentium-book-basic-italic.ttf);
+font-family: Open Sans Bold;
+src: local("Open Sans Bold"),
+url(fonts/OpenSans-Bold.ttf);
+}
+
+.nextReading{
+	width: auto;
+	position: relative;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.nextReading__section {
+
+	padding: 0;
+	margin: 0;
+	width: 50%;
+}
+
+.nextReading__image {
+	width: 100%;
+	margin-bottom: -5%;
+}
+
+
+.nextReading__text {
+	position: absolute;
+	display: inline;
+	top: 0;
+	padding: 70px;
+	color: #fff;
+}
+
+.nextReading__a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nextReading__head {
+	font-family: 'OpenSans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+
+.nextReading__title {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+.nextReading__headline {
+	font-family:'Gentium Book Basic Italic';
+		font-size: 30px;
+	margin: 0;
+}
